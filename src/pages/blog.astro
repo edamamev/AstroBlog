@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Funny Blog."
+import BlogPostList from '../components/BlogPostList.astro';
+---
+<BaseLayout pageTitle={pageTitle}>
+    <p>This is where I will post about my journey learning Astro.</p>
+    <BlogPostList />
+</BaseLayout>
